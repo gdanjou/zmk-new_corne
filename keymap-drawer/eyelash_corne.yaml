@@ -1,34 +1,34 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  ERGOL:
   - $$mdi:keyboard-tab$$
   - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
+  - C
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - W
+  - $$mdi:arrow-up-bold$$
+  - J
+  - M
+  - D
+  - O
+  - Y
+  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
-  - D
+  - E
+  - N
   - F
-  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - R
+  - I
+  - L
+  - U
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -38,11 +38,11 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - N
-  - M
-  - {t: ',', s: <}
+  - H
+  - G
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - K
+  - $$mdi:apple-keyboard-command$$
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
