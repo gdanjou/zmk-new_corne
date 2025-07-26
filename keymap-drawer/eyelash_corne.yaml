@@ -25,7 +25,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - L
   - R
-  - T
+  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
   - I
   - U
   - $$mdi:keyboard-space$$
