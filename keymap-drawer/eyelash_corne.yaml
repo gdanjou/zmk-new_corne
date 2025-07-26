@@ -7,7 +7,7 @@ layers:
   - O
   - P
   - W
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:volume-high$$
   - J
   - M
   - D
@@ -20,9 +20,9 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: N, h: '$$mdi:apple-keyboard-control$$'}
   - F
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: BT DISC, h: '0'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - L
   - {t: R, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: '$$mdi:apple-keyboard-command$$'}
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:volume-low$$
   - ':'
   - H
   - G
