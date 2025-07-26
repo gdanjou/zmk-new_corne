@@ -29,9 +29,7 @@
 flavor = "tap-preferred";
          bindings = <&kp>, <
 
-&kp {
-    >;
-};
+&mt { flavor = "tap-preferred"; };
 
 /
 
@@ -56,6 +54,9 @@ scroll_encoder: scroll_encoder {
     bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
     tap-ms = <100>;
+};
+
+behaviors {
 };
 
 behaviors {
