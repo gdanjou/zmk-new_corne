@@ -26,13 +26,9 @@
     trigger-period-ms = <16>;
 };
 
-flavor = "
+&mt { tapping-term-ms = <100>; };
 
-tap-preferred {
-    ";};
-
-/
-
+/ {
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
