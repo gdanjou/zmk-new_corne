@@ -25,14 +25,9 @@
     trigger-period-ms = <16>;
 };
 
-flavor = "tap-preferred";
-         bindings = <&kp>, <
+&mt { tapping-term-ms = <100>; };
 
-&kp {
-    >;};
-
-/
-
+/ {
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
@@ -62,9 +57,9 @@ flavor = "tap-preferred";
         ERGOL {
             display-name = "ergol";
             bindings = <
-&kp TAB         &kp Q  &kp W           &kp E           &kp R               &kp T                                     &kp C_VOLUME_UP              &kp Y        &kp U               &kp I           &kp O           &kp P     &kp ESCAPE
-&kp LEFT_SHIFT  &kp A  &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LEFT_CONTROL F  &kp G                         &bt BT_PRV  &bt BT_DISC 0    &bt BT_NXT  &kp H        &mt LEFT_CONTROL J  &mt LEFT_GUI K  &mt LEFT_ALT L  &kp SEMI  &kp SPACE
-&kp LCTRL       &kp Z  &kp X           &kp C           &kp V               &kp B            &kp SPACE                &kp C_VOL_DN                 &kp N        &kp M               &kp COMMA       &kp DOT         &kp FSLH  &kp LEFT_GUI
+&kp TAB         &kp Q  &kp C           &kp O           &kp P               &kp W                                     &kp C_VOLUME_UP              &kp J        &kp M               &kp D           &kp EXCLAMATION  &kp Y  &kp ESCAPE
+&kp LEFT_SHIFT  &kp A  &mt LEFT_ALT S  &mt LEFT_GUI E  &mt LEFT_CONTROL N  &kp F                         &bt BT_PRV  &bt BT_DISC 0    &bt BT_NXT  &kp L        &mt LEFT_CONTROL R  &mt LEFT_GUI T  &mt LEFT_ALT I   &kp U  &kp SPACE
+&kp LCTRL       &kp Z  &kp X           &kp QUESTION    &kp V               &kp B            &kp SPACE                &kp C_VOL_DN                 &kp COLON    &kp H               &kp G           &kp SEMICOLON    &kp K  &kp LEFT_GUI
                                        &kp LGUI        &kp LEFT_SHIFT      &lt 1 BACKSPACE                                                        &lt 1 SPACE  &kp ENTER           &kp RALT
             >;
 
