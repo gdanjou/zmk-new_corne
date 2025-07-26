@@ -36,6 +36,16 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        new_behavior_hold_tap: new_behavior_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_BEHAVIOR_HOLD_TAP";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <50>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
