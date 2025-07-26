@@ -142,7 +142,7 @@ layers:
   - {t: /, s: '?'}
   - LGUI
   - {t: ergol, h: toggle}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
