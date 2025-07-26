@@ -56,10 +56,10 @@
         ERGOL {
             display-name = "ERGOL";
             bindings = <
-&kp TAB         &kp Q  &kp C  &kp O     &kp P  &kp W                               &kp UP                &kp J        &kp M  &kp D     &kp O    &kp Y  &kp ESCAPE
-&kp LEFT_SHIFT  &kp A  &kp S  &kp E     &kp N  &kp F                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp L        &kp R  &kp I     &kp L    &kp U  &kp SPACE
-&kp LCTRL       &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp H  &kp G     &kp DOT  &kp K  &kp LEFT_GUI
-                              &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
+&kp TAB         &kp Q  &kp C  &kp O         &kp P           &kp W                                 &kp UP                &kp J      &kp M      &kp D     &kp EXCLAMATION  &kp Y  &kp ESCAPE
+&kp LEFT_SHIFT  &kp A  &kp S  &kp E         &kp N           &kp F                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp L      &kp R      &kp I     &kp L            &kp U  &kp SPACE
+&kp LCTRL       &kp Z  &kp X  &kp QUESTION  &kp V           &kp B          &kp SPACE              &kp DOWN              &kp COLON  &kp H      &kp G     &kp SEMICOLON    &kp K  &kp LEFT_GUI
+                              &kp LGUI      &kp LEFT_SHIFT  &kp BACKSPACE                                               &kp SPACE  &kp ENTER  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
