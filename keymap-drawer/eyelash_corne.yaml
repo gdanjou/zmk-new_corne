@@ -56,7 +56,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - PG UP
-  - '&bl BL_INC'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -70,7 +70,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&bl BL_TOG'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '*'
   - {t: '4', s: $}
@@ -85,7 +85,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - LGUI
-  - '&bl BL_DEC'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
