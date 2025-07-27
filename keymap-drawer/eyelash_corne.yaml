@@ -21,7 +21,7 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: BT DISC, h: '0'}
+  - {t: azerty, h: toggle}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: azerty, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: nav}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', h: 'AltGr+$$mdi:keyboard-return$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   nav:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
@@ -119,7 +119,7 @@ layers:
   - F
   - G
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ergol, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - H
   - J
@@ -141,7 +141,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - LGUI
-  - {t: ergol, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
