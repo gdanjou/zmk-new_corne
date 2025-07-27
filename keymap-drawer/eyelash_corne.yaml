@@ -83,7 +83,7 @@ layers:
   - $$mdi:volume-low$$
   - MUTE
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - LGUI
   - RGB BRD
   - {t: ',', s: <}
